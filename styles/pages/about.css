@@ -1,0 +1,26 @@
+#about {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#about #banner {
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#about .content {
+    padding: 3rem 7rem;
+}
+
+#about .content button {
+    background-color: var(--theme-dark);
+    color: var(--white);
+
+    font-size: 1rem;
+
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+    margin-top: 3rem;
+}

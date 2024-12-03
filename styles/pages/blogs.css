@@ -1,0 +1,16 @@
+#blogs {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#blogs #banner {
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#blogs .content {
+    padding: 3rem 7rem;
+}
+
+#blogs .blog-posts {}

@@ -1,0 +1,148 @@
+header {
+    padding: 0 7rem;
+
+    position: fixed;
+    top: 0;
+
+    height: 10vh;
+    width: 100vw;
+
+    /* position: relative; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--bg-color);
+
+    border-bottom: 1px solid var(--theme-light);
+
+    z-index: 20;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        padding: 0 1rem;
+    }
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+header .menu .other-links {
+    margin-left: 9rem;
+
+    display: flex;
+    align-items: center;
+
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+    header .menu .other-links {
+        display: none;
+    }
+}
+
+header .menu .logo {
+    width: 8rem;
+    aspect-ratio: 1;
+    position: absolute;
+    top: -2rem;
+    background-color: var(--bg-color);
+    box-shadow: 0.2rem 0.2rem 0.3rem 0 rgba(0, 0, 0, 0.162),
+        -0.2rem -0.2rem 0.3rem 0 rgba(0, 0, 0, 0.162);
+
+    padding: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+    header .menu .logo {
+        width: 5rem;
+        padding: 0.5rem;
+    }
+}
+
+header .menu .logo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+header a {
+    white-space: nowrap;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+header .side-icons {
+    display: flex;
+    align-items: center;
+}
+
+header #nav-burger {
+    width: 1.6rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    aspect-ratio: 1;
+
+    border: 1px solid #7d7d7d77;
+
+    margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 650px) {
+    header #nav-burger {
+        display: none;
+    }
+}
+
+.login {
+    font-size: 0.8rem;
+    border: 2px solid var(--theme-light);
+    width: fit-content;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.2rem;
+    color: var(--theme);
+}
+
+header .side-icons .book-search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    height: 1rem;
+
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 350px) {
+    header .side-icons .book-search {
+        display: none;
+    }
+}
+
+header .side-icons .book-search img {
+    width: 1.2rem;
+    aspect-ratio: 1;
+
+    fill: black;
+}
+
+header .side-icons .book-search .divider {
+    height: 100%;
+    width: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.151) !important;
+}

@@ -1,0 +1,13 @@
+:root
+{
+
+    --bg-color: #F5F5F5;
+    --white: #f3ffdf;
+    --dark: #0d2b17;
+    --black: #131313;
+    --theme-light: #e3db83;
+    --theme: #ABA343;
+    --theme-dark: rgb(117, 109, 27);
+
+    --error: rgb(173, 2, 2);
+}

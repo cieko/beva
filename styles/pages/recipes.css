@@ -1,0 +1,14 @@
+#recipes {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#recipes #banner {
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#recipes .content {
+    padding: 3rem 7rem;
+}
